@@ -74,7 +74,7 @@ A API Escola é uma API RESTful desenvolvida para gerenciar informações relaci
 
 ### Inicie o servidor:
 - npm start
-- **A API estará disponível em http://localhost:3000**
+- **A API estará disponível em http://localhost:3001**
 ---
 
 ## Contribuição
