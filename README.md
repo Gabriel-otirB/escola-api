@@ -37,21 +37,20 @@ A API Escola é uma API RESTful desenvolvida para gerenciar informações relaci
 ---
 # Proteção de Rotas
 - Para proteger qualquer rota, basta adicionar o middleware loginRequired antes da rota desejada.
+- Para remover a proteção de qualquer rota, basta remover o middleware loginRequired antes da rota desejada.
 ---
 # Configuração do Ambiente
 
-### Para rodar a API localmente, é necessário configurar um arquivo .env na raiz do projeto com as seguintes variáveis:
-DATABASE="api_database"
-DATABASE_HOST="127.0.0.1"
-DATABASE_PORT=3306
-DATABASE_USERNAME="root"
-DATABASE_PASSWORD="root"
-
-TOKEN_SECRET="token_secret_key"
-TOKEN_EXPIRATION=7d
-
-APP_PORT=3001
-APP_URL=http://localhost:3001
+**Para rodar a API localmente, é necessário configurar um arquivo .env na raiz do projeto com as seguintes variáveis:**
+- DATABASE="api_database"
+- DATABASE_HOST="127.0.0.1"
+- DATABASE_PORT=3306
+- DATABASE_USERNAME="root"
+- DATABASE_PASSWORD="root"
+- TOKEN_SECRET="token_secret_key"
+- TOKEN_EXPIRATION=7d
+- APP_PORT=3000
+- APP_URL=http://localhost:3000
 ---
 
 # Como Executar o Projeto
@@ -69,11 +68,13 @@ APP_URL=http://localhost:3001
 ### Configure o CORS
 - Abra o arquivo app.js e procure a variável whitelist
 - Adicione no array de strings whitelist todas URL das origens que forem consumir a API
+  
+### Importe a collection da API insomnia
+- Importe o arquivo do diretório insomnia para efetuar suas requisições
 
 ### Inicie o servidor:
 - npm start
-
-### A API estará disponível em http://localhost:3000
+- **A API estará disponível em http://localhost:3000**
 ---
 
 ## Contribuição
