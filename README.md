@@ -49,8 +49,8 @@ A API Escola é uma API RESTful desenvolvida para gerenciar informações relaci
 - DATABASE_PASSWORD="root"
 - TOKEN_SECRET="token_secret_key"
 - TOKEN_EXPIRATION=7d
-- APP_PORT=3000
-- APP_URL=http://localhost:3000
+- APP_PORT=3001
+- APP_URL=http://localhost:3001
 ---
 
 # Como Executar o Projeto
