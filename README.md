@@ -56,7 +56,7 @@ A API Escola é uma API RESTful desenvolvida para gerenciar informações relaci
 # Como Executar o Projeto
 
 ### Clone o repositório: 
-- git clone https://github.com/seu-usuario/api-escola.git
+- git clone https://github.com/Gabriel-otirB/escola-api/
 
 ### Instale as dependências:
 - npm install
